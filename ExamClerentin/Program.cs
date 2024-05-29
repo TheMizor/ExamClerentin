@@ -1,20 +1,26 @@
-﻿// Demande à l'utilisateur de saisir la taille des tableaux
-Console.Write("Entrez la taille des tableaux: ");
-int taille = int.Parse(Console.ReadLine());
-
-// Saisie des éléments du premier tableau
-Console.WriteLine("Saisissez les éléments du premier tableau:");
-int[] tableau1 = SaisirTableau(taille);
+﻿// Saisie des éléments du premier tableau
+Console.WriteLine("-> Tableau 1:");
+Console.Write("Saisir la taille du tableau: "); // Demande à l'utilisateur de saisir la taille des tableaux
+int taille01 = int.Parse(Console.ReadLine());
+int[] tableau1 = SaisirTableau(taille01);
 
 // Saisie des éléments du deuxième tableau
-Console.WriteLine("Saisissez les éléments du deuxième tableau:");
-int[] tableau2 = SaisirTableau(taille);
+Console.WriteLine("-> Tableau 2:");
+Console.Write("Saisir la taille du tableau: "); // Demande à l'utilisateur de saisir la taille des tableaux
+int taille02 = int.Parse(Console.ReadLine());
+int[] tableau2 = SaisirTableau(taille02);
+
+if(taille01 != taille02)
+{
+    Console.WriteLine("La taille des deux tableaux est différente donc cela ne marchera pas. FIN DU PROGRAMME");
+    System.Environment.Exit(1);
+}
 
 // Calcul du tableau résultant de la somme des deux tableaux
 int[] tableauSomme = CalculerSommeTableaux(tableau1, tableau2);
 
 // Affichage du tableau résultant
-Console.WriteLine("Tableau résultant de la somme des deux tableaux:");
+Console.WriteLine("-> Somme des deux tableaux:");
 AfficherTableau(tableauSomme);
 
 
@@ -25,8 +31,20 @@ static int[] SaisirTableau(int taille)
     int[] tableau = new int[taille];
     for (int i = 0; i < taille; i++)
     {
-        Console.Write($"Element {i + 1}: ");
+        Console.Write($"Saisir l'élément {i + 1}: ");
         tableau[i] = int.Parse(Console.ReadLine());
     }
     return tableau;
+}
+
+// Méthode pour calculer la somme de deux tableaux
+static int[] CalculerSommeTableaux(int[] tableau1, int[] tableau2)
+{
+    int taille = tableau1.Length;
+    int[] tableauSomme = new int[taille];
+    for (int i = 0; i < taille; i++)
+    {
+        tableauSomme[i] = tableau1[i] + tableau2[i];
+    }
+    return tableauSomme;
 }
