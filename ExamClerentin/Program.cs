@@ -48,3 +48,13 @@ static int[] CalculerSommeTableaux(int[] tableau1, int[] tableau2)
     }
     return tableauSomme;
 }
+
+// Méthode pour afficher un tableau
+static void AfficherTableau(int[] tableau)
+{
+    foreach (int element in tableau)
+    {
+        Console.Write(element + " ");
+    }
+    Console.WriteLine();
+}
