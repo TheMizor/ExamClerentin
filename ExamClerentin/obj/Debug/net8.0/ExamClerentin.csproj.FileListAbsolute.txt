@@ -1,0 +1,14 @@
+C:\Users\g22300814\source\repos\ExamClerentin\ExamClerentin\bin\Debug\net8.0\ExamClerentin.exe
+C:\Users\g22300814\source\repos\ExamClerentin\ExamClerentin\bin\Debug\net8.0\ExamClerentin.deps.json
+C:\Users\g22300814\source\repos\ExamClerentin\ExamClerentin\bin\Debug\net8.0\ExamClerentin.runtimeconfig.json
+C:\Users\g22300814\source\repos\ExamClerentin\ExamClerentin\bin\Debug\net8.0\ExamClerentin.dll
+C:\Users\g22300814\source\repos\ExamClerentin\ExamClerentin\bin\Debug\net8.0\ExamClerentin.pdb
+C:\Users\g22300814\source\repos\ExamClerentin\ExamClerentin\obj\Debug\net8.0\ExamClerentin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\g22300814\source\repos\ExamClerentin\ExamClerentin\obj\Debug\net8.0\ExamClerentin.AssemblyInfoInputs.cache
+C:\Users\g22300814\source\repos\ExamClerentin\ExamClerentin\obj\Debug\net8.0\ExamClerentin.AssemblyInfo.cs
+C:\Users\g22300814\source\repos\ExamClerentin\ExamClerentin\obj\Debug\net8.0\ExamClerentin.csproj.CoreCompileInputs.cache
+C:\Users\g22300814\source\repos\ExamClerentin\ExamClerentin\obj\Debug\net8.0\ExamClerentin.dll
+C:\Users\g22300814\source\repos\ExamClerentin\ExamClerentin\obj\Debug\net8.0\refint\ExamClerentin.dll
+C:\Users\g22300814\source\repos\ExamClerentin\ExamClerentin\obj\Debug\net8.0\ExamClerentin.pdb
+C:\Users\g22300814\source\repos\ExamClerentin\ExamClerentin\obj\Debug\net8.0\ExamClerentin.genruntimeconfig.cache
+C:\Users\g22300814\source\repos\ExamClerentin\ExamClerentin\obj\Debug\net8.0\ref\ExamClerentin.dll
